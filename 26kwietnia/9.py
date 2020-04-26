@@ -1,0 +1,20 @@
+def Upper(wyraz):
+    for index in range(len(wyraz)):
+        yield wyraz[index].upper()
+
+generator = Upper("Hello World")
+print(next(generator))
+print(next(generator))
+print("costam123")
+print(next(generator))
+print(next(generator))
+print("costam123")
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print("costam123")
+print(next(generator))
+print(next(generator))
+print("costam123")
+print(next(generator))
