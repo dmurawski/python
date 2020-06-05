@@ -19,9 +19,11 @@ class NaZakupy:
 cukier = NaZakupy("cukier", 2, "kg", 2)
 maka = NaZakupy("maka", 1, "kg", 1)
 mleko = NaZakupy("mleko", 3, "butelki", 3)
+ziemniaki = NaZakupy("Ziemniaki",5,"kg",3)
 
 mleko.ile_kosztuje()
 mleko.ile_produktu()
 maka.ile_produktu()
 maka.ile_kosztuje()
 cukier.wyświetl_produkt()
+ziemniaki.wyświetl_produkt()

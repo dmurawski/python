@@ -1,5 +1,6 @@
-import numpy as np
-def funkcja(n):
+import numpy as np 
+
+def foo(n):
     i = 0
     z = 1
     ii = 1
@@ -13,8 +14,5 @@ def funkcja(n):
         ii = ii + 1
         zz = zz + 1
     print(a)
-funkcja(7)
 
-
-
-
+foo(5)

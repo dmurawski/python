@@ -5,5 +5,5 @@ produkty = {
     "Cola" : "sztuki",
     "Ogórki" : "kg"
 }
-wartosci = [k for k,wartosc in produkty.items() if wartosc == "sztuki"]
+wartosci = {k for k,wartosc in produkty.items() if wartosc == "sztuki"}
 print(wartosci)
